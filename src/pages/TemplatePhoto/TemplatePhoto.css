@@ -1,0 +1,152 @@
+.DivImg{
+
+height: 415px;
+}
+.DivImg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    object-fit: cover;
+}
+.TemplatePhoto h2 {
+    color: var(--red);
+    font-size: 36px;
+font-style: normal;
+font-weight: 500;
+}
+
+.DivTitreAuthor{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+.DivAuthor{
+    display: flex;
+    align-items: center;
+
+}
+.DivAuthor p {
+    font-size: 18px;
+font-style: normal;
+font-weight: 500;
+color: var(--red);
+margin-right: 10px;
+}
+.DivLocation {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.DivImgAuthor{
+    width: 64px;
+height: 64px;
+}
+.DivImgAuthor img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    Border-radius: 50%;
+}
+.DivTag li {
+ padding: 6px 30px 0px 29px;
+height: 25px; 
+border-radius: 10px;
+background-color: var(--red);
+color: white;
+font-size: 14px;
+font-weight: 700;
+}
+.DivTag ul{
+    display: flex;
+    gap: 10px
+}
+.DivStar span {
+    margin-right: 15px;
+}
+.DivStar{
+    margin-top: 21px;
+}
+.DivAuthorStar {
+    display: flex;
+    flex-direction: column;
+}
+.dropdown-div2 {
+    background-color: var(--red);
+    border-radius: 5px;
+    height: 54px;
+    width: 582px;
+    display: flex;
+    justify-content: space-between;
+}
+.dropdown-div2 h3{
+    color: #FFF;
+    padding-left: 15px;
+    padding-top: 10px;
+
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+}
+.DropdownPhoto{
+    justify-content: center;
+    display: flex;
+    margin-top: 24px;
+    gap: 76px;
+    flex-wrap: wrap;
+}
+.dropdown-content2{
+    background-color: var(--grey);
+    border-radius: 0px 0px 5px 5px;
+    padding: 20px;
+    width: 542px;
+}
+@media (max-width: 767px){
+    .DivTitreAuthor {
+        flex-direction: column;
+}
+.DivAuthorStar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+.dropdown-div2 {
+
+    width: 335px;
+
+}
+.DivTag li{
+font-size: 10px;
+height: unset;
+padding-bottom: 6px;
+}
+.dropdown-content2{
+    width: 292px;
+}
+.DropdownPhoto{
+    justify-content: center;
+    display: flex;
+    margin-top: 24px;
+    gap: 76px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+}
+.TemplatePhoto{
+    margin: 0px 27px;
+}
+.DivStar img{
+    width: 20px;
+}
+}
+
+
+@media (max-width: 427px){
+    .DivTag li{
+    font-size: 10px;
+    height: unset;
+    padding: 2px 22px 1px 21px;
+    }
+    }

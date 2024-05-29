@@ -7,7 +7,7 @@ function DataComponent() {
     <section className='section-carte'>
       <div className='main-carte'>
         {jsonData.map((item, index) => (
-          <div className="carte" key={index}>
+          <article className="carte" key={index}>
             <Link to={`photo/${item.id}`}>
               <img
                 src={item.cover}
@@ -15,8 +15,8 @@ function DataComponent() {
                 id={item.id}
               />
             </Link>
-            <p>{item.title}</p>
-          </div>
+            <h3>{item.title}</h3>
+          </article>
         ))}
       </div>
     </section>
