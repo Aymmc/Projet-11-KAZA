@@ -1,0 +1,64 @@
+.carte img {
+    width: 340px;
+    height: 250px;
+    border-radius: 10px 10px 0px 0px; ;
+}
+.carte {
+    width: 340px;
+    height: 340px;
+    border-radius: 10px;
+    background: #FF6060;
+    background: #FF6060 , linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, rgba(10, 10, 10, 0.00) 42%, rgba(4, 4, 4, 0.20) 99.99%, rgba(0, 0, 0, 0.50) 100%);
+}
+.main-carte{
+    display: grid;
+    gap: 60px;
+    grid-template-columns: repeat(3,28.5%);
+    margin-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.section-carte{
+    border-radius: 25px;
+background: #F6F6F6;
+}
+
+.main-carte p{
+    color: #FFF;
+    font-size: 18px;
+font-style: normal;
+font-weight: 700;
+margin: 20px;
+}
+
+.main-carte a {
+    display: block;
+    width: 100%;
+}
+
+@media (max-width: 1140px){
+    .main-carte {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+}
+
+@media (max-width: 767px){
+    .carte {
+        width: 335px;
+        height: 280px;
+        border-radius: 10px;
+    }
+    .carte img {
+        width: 335px;
+        height: 200px;
+    }
+    .main-carte {
+        padding: unset;
+     margin: unset;
+    }
+    .section-carte{
+        background-color: unset;
+    }
+}
