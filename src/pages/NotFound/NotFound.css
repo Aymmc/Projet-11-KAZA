@@ -1,0 +1,43 @@
+.NotFound p {
+    font-size: 36px;
+    color: var(--red);
+    margin-bottom: 138px;
+}
+.NotFound a {
+    border-bottom: 1px solid black;
+    
+}
+.NotFound img {
+    width: 597px;
+height: 263px;
+margin-bottom: 138px;
+margin-top: 138px;
+}
+.NotFound{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.NotFound li{
+    margin-bottom: 138px;
+}
+@media (max-width: 767px) { 
+    .NotFound img {
+        width: 198px;
+        height: 99px;
+        margin-bottom: 113px;
+    }
+    .NotFound p {
+        font-size: 18px;
+        margin-bottom: 113px;
+    }
+    .NotFound a {
+        font-size: 14px;
+        
+    }
+    .NotFound li {
+        margin-bottom: 113px;
+    }
+}
