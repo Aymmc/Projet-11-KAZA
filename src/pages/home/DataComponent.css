@@ -9,6 +9,13 @@
     border-radius: 10px;
     background: var(--red);
 }
+.radiant{
+    height: 340px;
+    border-radius: 10px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, rgba(10, 10, 10, 0.00) 42%, rgba(4, 4, 4, 0.20) 99.99%, rgba(0, 0, 0, 0.50) 100%);   
+  
+
+}
 .main-carte{
     display: grid;
     gap: 60px;
@@ -48,6 +55,10 @@ margin: 20px;
         width: 335px;
         height: 280px;
         border-radius: 10px;
+    }
+    .radiant{
+        width: 335px;
+        height: 280px;
     }
     .carte img {
         width: 335px;

@@ -7,8 +7,9 @@ function Home() {
     <>
     <div className='ChezVous'>
     <div className='ChezVous-content'>
-    <p>Chez vous, partout et ailleurs</p>
+    
     </div>
+    <p>Chez vous, partout et ailleurs</p>
     </div>
       <DataComponent />
       </>

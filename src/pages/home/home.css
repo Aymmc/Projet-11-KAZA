@@ -55,6 +55,7 @@ line-height: 142.6%;
 color: #FFF;
 top: 34%;
     left: 20%;
+    z-index: 2;
 }
 @media (max-width: 767px){
     main{

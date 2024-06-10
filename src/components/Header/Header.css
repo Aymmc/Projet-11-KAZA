@@ -5,8 +5,7 @@ header{
     max-width: 1240px;
     font-weight: 500;
     align-items: center;
-    margin-left: 20px;
-    margin-right: 20px;
+
 }
 .menu{
     display: flex;
@@ -24,5 +23,10 @@ header{
     }
     .menu{
         gap: 20px;
+    }
+    header{
+
+        margin-left: 20px;
+        margin-right: 20px;
     }
 }

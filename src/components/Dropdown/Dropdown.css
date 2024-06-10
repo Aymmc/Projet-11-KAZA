@@ -4,7 +4,7 @@
     border-radius: 5px;
     align-items: center;
     height: 54px;
-
+    max-width: 1024px;
     display: flex;
     justify-content: space-between;
     cursor: pointer;
@@ -27,7 +27,7 @@
 .dropdown-content {
     background-color: var(--grey);
     border-radius: 0px 0px 5px 5px;
-    /* width: 984px; */
+    max-width: 984px;
     padding: 0 20px; /* Padding horizontal seulement */
     height: 0;
     overflow: hidden;
