@@ -1,18 +1,17 @@
 import React from 'react';
-import DataComponent from './DataComponent';
-import "./home.css"
+import PhotoCards from '../../components/PhotosCards/PhotosCards';
+import "./Home.css"
 // import ChezVous from './IMG.png'
 function Home() {
   return (
     <>
-    <div className='ChezVous'>
-    <div className='ChezVous-content'>
-    
-    </div>
-    <p>Chez vous, partout et ailleurs</p>
-    </div>
-      <DataComponent />
-      </>
+      <div className='ChezVous'>
+        <div className='ChezVous-content'>
+        </div>
+        <p>Chez vous, partout et ailleurs</p>
+      </div>
+      <PhotoCards />
+    </>
   );
 }
 

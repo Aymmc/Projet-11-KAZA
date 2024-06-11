@@ -15,6 +15,8 @@ mix-blend-mode: darken;
     position: relative;
     border-radius: 25px;
     overflow: hidden;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .ChezVous::before {
@@ -55,7 +57,13 @@ line-height: 142.6%;
 color: #FFF;
 top: 34%;
     left: 20%;
-    z-index: 2;
+        z-index: 2;
+}
+@media (max-width: 943px){
+    .ChezVous p{
+        top: 19%;
+    }
+
 }
 @media (max-width: 767px){
     main{

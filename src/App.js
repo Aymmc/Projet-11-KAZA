@@ -1,5 +1,5 @@
 import './App.css';
-import AppRouter from './AppRouter';
+import Router from './Router';
 import React from 'react';
 import Header from './components/Header/Header.jsx'
 import Footer from './components/Footer/Footer.jsx'
@@ -10,7 +10,7 @@ function App() {
     <>
       <Header />
       <main>
-        <AppRouter />
+        <Router />
       </main>
       <Footer />
     </>

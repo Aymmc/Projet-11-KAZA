@@ -11,7 +11,7 @@ function Header() {
             </h1>
             <ul className='menu'>
                 <li> <NavLink to="/">Accueil</NavLink></li>
-                <li><NavLink to="/a-propos">A Propos</NavLink></li>
+                <li><NavLink to="/About">A Propos</NavLink></li>
             </ul>
         </header>
     )
