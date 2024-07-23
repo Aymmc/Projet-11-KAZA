@@ -1,9 +1,9 @@
 import React from 'react';
-import { useParams } from 'react-router-dom';
+import { Navigate, useParams } from 'react-router-dom';
 // import jsonData from '../home/data.json';
 import Star from "../../components/Star/Star.jsx";
 import Dropdown from '../../components/Dropdown/Dropdown.jsx';
-import Carousel from '../../components/Carousel/Carousel.jsx';
+import Carrousel from '../../components/Carrousel/Carrousel.jsx';
 import './TemplatePhoto.css';
 import { useJsonDataContext } from '../../components/Api/Api.js';
 
@@ -18,7 +18,7 @@ function TemplatePhoto() {
   }
   const item = jsonData.find(item => item.id === id);
   if (!item) {
-    return <p>Item not found</p>;
+    return <Navigate to="*" />;
   }
   // Gestionnaires d'événements pour les flèches
   const dropdowns = [
@@ -33,7 +33,7 @@ function TemplatePhoto() {
     <>
       <section>
         <article className='TemplatePhoto'>
-       <Carousel item={item} />
+       <Carrousel item={item} />
           <div className='DivTitreAuthor'>
             <div className='DivTitreLocation'>
               <div className='DivTitre'>
